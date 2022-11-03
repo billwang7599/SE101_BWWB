@@ -27,5 +27,9 @@ First, we establish a connection to the Arduino Uno from the laptop. Afterwards,
 - [ ] Setup Arduino to laptop
 - [ ] Connect Arduino to motors and pumps
 
+### Contributers
 ---
-Bill Wang, Jerry Du, Mike Kwak, Thomas Kim
+:point_right: Bill Wang
+:point_right: Jerry Du
+:point_right: Mike Kwak
+:point_right: Thomas Kim
