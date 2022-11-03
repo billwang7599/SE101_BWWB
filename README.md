@@ -15,5 +15,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel leo metus.
 First, we establish a connection to the Arduino Uno from the laptop. Afterwards, we attatch the Arduino to the breadboard so that it can interact with the pump, motor, and sensor. This way, we can get data from the soil and the system can act accordingly.
 
 ### To-do
-- [] Setup Arduino to laptop
-- [] Connect Arduino to motors and pumps
+- [ ] Setup Arduino to laptop
+- [ ] Connect Arduino to motors and pumps
