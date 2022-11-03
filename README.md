@@ -29,7 +29,7 @@ First, we establish a connection to the Arduino Uno from the laptop. Afterwards,
 
 ### Contributers
 ---
-:point_right: Bill Wang
+:point_right: <br>Bill Wang
 :point_right: Jerry Du
 :point_right: Mike Kwak
 :point_right: Thomas Kim
