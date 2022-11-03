@@ -18,7 +18,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel leo metus.
 - "Small Breadboard"
 - *possibly: 60V Transistor, 10k Ohm Resistor*
 
-First, we establish a connection to the Arduino Uno from the laptop. Afterwards, we attatch the Arduino to the breadboard so that it can interact with the pump, motor, and sensor. This way, we can get data from the soil and the system can act accordingly.
+First, we establish a connection to the Arduino Uno from the laptop. Afterwards, we attatch the Arduino to the breadboard so that it can interact with the pump, motor, and sensor. This way, we can get data from the soil and the system can act accordingly (dispenses water if needed; continues until desired soil moisture level is reached).
 
 ![Circuit Image](https://github.com/billwang7599/SE101_BWWB/blob/main/info/Circuit.png)
 
