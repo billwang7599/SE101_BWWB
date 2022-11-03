@@ -19,7 +19,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel leo metus.
 - *possibly: 60V Transistor, 10k Ohm Resistor*
 
 First, we establish a connection to the Arduino Uno from the laptop. Afterwards, we attatch the Arduino to the breadboard so that it can interact with the pump, motor, and sensor. This way, we can get data from the soil and the system can act accordingly.
-![alt text](https://github.com/billwang7599/SE101_BWWB/tree/main/info/Circuit.png?raw=true)
+![Circuit Image](https://github.com/billwang7599/SE101_BWWB/blob/main/info/Circuit.png)
 
 ### To-do
 ---
