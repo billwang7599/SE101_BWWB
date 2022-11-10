@@ -16,7 +16,7 @@
 
 ### Summary
 ---
-Our proposal is to create an **automatic smart garden** that monitors the plants and waters automatically using Arduino. Using a soil moisture sensor, soil data will be sent to pumps to water the garden based on their positions. The pumps will shoot quantities of water corresponding with each plant species’ needs found in a plant water intake API. The endmost goal is to be able to automate tending to a garden’s nourishment using the specified software and hardware applications.
+Our proposal is to create an automated smart garden that monitors plant moisture levels and independently gauges when they need to be watered. Based around an Arduino  board framework, a soil moisture sensor receives the plants' soil data and actuates the hydration system. The orientation of the tubing is controlled by a servo motor that changes the angle of the tubing based on the location data of the plants. The amount of water needed to be pumped corresponds with each plant species’ needs found in a plant water intake API. The culminating goal is to be able to automate tending to a garden’s watering needs using the specified software and hardware applications.
 <br><br>
 
 ### Installation
@@ -60,17 +60,8 @@ First, we establish a connection to the Arduino Uno from the laptop. Afterwards,
 
 ### To-do
 ---
-- [X] Setup Arduino to laptop
-- [X] Connect circuitry between Arduino Uno, the breadboard, and other components
-- [X] Connect Arduino Uno to computer
-- [X] Test Code to activate components
-    - [X] Servo Motor
-    - [X] Dosing Pump
-    - [X] Soil Moisture Sensor
-- [X] Have sensor read moisture
-- [ ] Have water pump automatically after reading moisture
-- [ ] Have pump water different locations
-- [ ] Set up automated garden
+- [ ] Setup Arduino to laptop
+- [ ] Connect Arduino to motors and pumps
 <br><br>
 
 ### Contributers
