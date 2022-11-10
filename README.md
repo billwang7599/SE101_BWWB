@@ -12,6 +12,10 @@ Our proposal is to create an **automatic smart garden** that monitors the plants
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel leo metus. Pellentesque vel turpis pretium, consectetur diam at, pellentesque ante. Etiam eleifend gravida purus, eu laoreet diam dapibus ac. Donec sagittis vehicula diam. Integer a fermentum leo. Vestibulum sit amet metus id libero iaculis posuere. Mauris ultrices, libero et volutpat laoreet, magna ipsum tristique ligula, vitae commodo ligula tellus et tellus. Morbi mollis elit sit amet euismod faucibus. Donec at eros at sapien blandit dignissim vel nec elit. Morbi condimentum est quis ante pretium, sed facilisis turpis aliquam. Pellentesque felis dui, faucibus non lacus eget, imperdiet consectetur nunc. Aenean consequat libero id vestibulum sagittis.
 <br><br>
 
+### Arduino Code
+---
+CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE CODE 
+<br><br>
 
 ### Circuitry
 ---
