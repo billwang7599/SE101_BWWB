@@ -17,8 +17,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel leo metus.
 - Gikfun 2mm ID x 4mm OD Silicone Tube
 - Gikfun Capacitative Soil Moisture Sensor
 - Male-To-Male Jumper Wires
-- "Small Breadboard"
-- *possibly: 60V Transistor, 10k Ohm Resistor*
+- Breadboard
+- 60V Transistor, 10k Ohm Resistor
 
 First, we establish a connection to the Arduino Uno from the laptop. Afterwards, we attatch the Arduino to the breadboard so that it can interact with the pump, motor, and sensor. This way, we can get data from the soil and the system can act accordingly (dispenses water if needed; continues until desired soil moisture level is reached).
 
