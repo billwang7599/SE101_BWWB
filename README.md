@@ -36,4 +36,4 @@ First, we establish a connection to the Arduino Uno from the laptop. Afterwards,
 :point_right: Bill Wang<br>
 :point_right: Jerry Du<br>
 :point_right: Mike Kwak<br>
-:point_right: Thomas Kim
+:point_right: Suh Jin Kim
