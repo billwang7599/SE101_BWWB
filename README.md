@@ -2,6 +2,18 @@
   UWaterloo SE101 2022 | Design Project 
 </h1>
 
+---
+<p align="center">
+  <a href="#summary">Summary</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#arduino-code">Arduino Code</a> •
+  <a href="#circuitry">Circuitry</a> •
+  <a href="#materials">Materials</a> •
+  <a href="#to-do">To-do</a> •
+  <a href="#contributers">Contributers</a>
+</p>
+
+
 ### Summary
 ---
 Our proposal is to create an **automatic smart garden** that monitors the plants and waters automatically using Arduino. Using a soil moisture sensor, soil data will be sent to pumps to water the garden based on their positions. The pumps will shoot quantities of water corresponding with each plant species’ needs found in a plant water intake API. The endmost goal is to be able to automate tending to a garden’s nourishment using the specified software and hardware applications.
