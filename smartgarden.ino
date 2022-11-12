@@ -2,7 +2,6 @@
 
 Servo servo;
 
-int pos;
 
 void setup() {
   servo.attach(2);  //attaches the pervo on pin 9
@@ -15,13 +14,10 @@ void setup() {
   Serial.println("__________________");
   Serial.println("--Welcome to the--");
   Serial.println("---SMART GARDEN---");
-
-  
-  
-  String plant = "a";
-  
+  Serial.println("__________________");
 }
 
+int pos;
 int huminity;
 
 void loop() {
@@ -34,16 +30,19 @@ void loop() {
   delay(3000);
   
   if(huminity < 0.5){
-    //open pump
-    analogWrite(9, 20);
-    for(pos = 45; pos <= 135; pos += 1){
-      servo.write(pos);
-      delay(20);
+    digitalWrite(9, 20);
+    
+    for(int i = 0; i < 10; i++){
+      for(pos = 45; pos <= 135; pos += 1){
+        servo.write(pos);
+        delay(20);
+      } 
+      for(pos = 135; pos >= 45; pos -= 1){
+        servo.write(pos);
+        delay(20);
+      }
     }
-    for(pos = 135; pos >= 45; pos -= 1){
-      servo.write(pos);
-      delay(20);
-    }
+    digitalWrite(9, 0);
   }
 
   //delay(60000);
