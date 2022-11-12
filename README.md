@@ -60,8 +60,17 @@ First, we establish a connection to the Arduino Uno from the laptop. Afterwards,
 
 ### To-do
 ---
-- [ ] Setup Arduino to laptop
-- [ ] Connect Arduino to motors and pumps
+- [X] Setup Arduino to laptop
+- [X] Connect circuitry between Arduino Uno, the breadboard, and other components
+- [X] Connect Arduino Uno to computer
+- [X] Test Code to activate components
+    - [X] Servo Motor
+    - [X] Dosing Pump
+    - [X] Soil Moisture Sensor
+- [X] Have sensor read moisture
+- [ ] Have water pump automatically after reading moisture
+- [ ] Have pump water different locations
+- [ ] Set up automated garden
 <br><br>
 
 ### Contributers
