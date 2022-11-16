@@ -1,10 +1,10 @@
 #include <Servo.h>
 
 Servo servo;
-
+int analogPin;  //needs to be set
 
 void setup() {
-  servo.attach(2);  //attaches the pervo on pin 9
+  servo.attach(2);  //attaches the servo on pin 9
 
   //make the transistor's pin an output
   pinMode(9, OUTPUT);
@@ -14,17 +14,15 @@ void setup() {
   Serial.println("__________________");
   Serial.println("--Welcome to the--");
   Serial.println("---SMART GARDEN---");
-  Serial.println("__________________");
+  Serial.println("_______Demo_______");
 }
 
 int pos;
 int huminity;
 
 void loop() {
-  // put your main code here, to run repeatedly:
-
   //measure moisture level
-  //huminity = ____
+  huminity = analogRead(analogPin);
   Serial.print("Current Huminity: ");
   Serial.println(huminity);
   delay(3000);
