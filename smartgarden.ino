@@ -27,8 +27,8 @@ void loop() {
   Serial.println(huminity);
   delay(3000);
   
-  if(huminity < 0.5){
-    digitalWrite(9, 20);
+  if(huminity/1024 < 0.5){
+    analogWrite(9, 20);
     
     for(int i = 0; i < 10; i++){
       for(pos = 45; pos <= 135; pos += 1){
@@ -40,9 +40,9 @@ void loop() {
         delay(20);
       }
     }
-    digitalWrite(9, 0);
+    analogWrite(9, 0);
   }
 
-  //delay(60000);
+  delay(60000);
   
 }
