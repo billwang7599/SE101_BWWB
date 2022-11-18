@@ -1,48 +1,40 @@
 #include <Servo.h>
 
+#define sensorPin A5
+#define pumpPin A0
+#define servoPin 3
+int pos;
+float sensorValue = 0; 
 Servo servo;
-int analogPin;  //needs to be set
 
 void setup() {
-  servo.attach(2);  //attaches the servo on pin 9
+  // put your setup code here, to run once:
+  Serial.begin(9600); 
+  pinMode(pumpPin, OUTPUT); // set pump digital pin to output
+  digitalWrite(pumpPin, 0); // makes sure the pump isn't on
+  servo.attach(servoPin);
 
-  //make the transistor's pin an output
-  pinMode(9, OUTPUT);
-  
-  Serial.begin(9600);
-  while(! Serial);
-  Serial.println("__________________");
-  Serial.println("--Welcome to the--");
-  Serial.println("---SMART GARDEN---");
-  Serial.println("_______Demo_______");
 }
 
-int pos;
-int huminity;
-
 void loop() {
-  //measure moisture level
-  huminity = analogRead(analogPin);
-  Serial.print("Current Huminity: ");
-  Serial.println(huminity);
-  delay(3000);
-  
-  if(huminity/1024 < 0.5){
-    analogWrite(9, 20);
-    
-    for(int i = 0; i < 10; i++){
-      for(pos = 45; pos <= 135; pos += 1){
-        servo.write(pos);
-        delay(20);
-      } 
-      for(pos = 135; pos >= 45; pos -= 1){
-        servo.write(pos);
-        delay(20);
-      }
-    }
-    analogWrite(9, 0);
-  }
+  // averages  huminity readings
+  for (int i = 0; i <= 50; i++) { 
+   sensorValue = sensorValue + analogRead(sensorPin); 
+   delay(1); 
+ } 
+ sensorValue = sensorValue/100.0; 
+ Serial.println(sensorValue); //displays average value
+ delay(300);
 
-  delay(60000);
-  
+ if (sensorValue < 200) {
+    servo.write(20);
+    delay(1000);
+
+    digitalWrite(pumpPin, HIGH);
+ }
+ else {
+   digitalWrite(pumpPin, 0);
+   servo.write(120);
+ }
+
 }
