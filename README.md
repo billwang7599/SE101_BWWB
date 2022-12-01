@@ -24,13 +24,6 @@ Our proposal is to create an automated smart garden that monitors plant moisture
 Plug Arduino into a power source. If testing is needed, set the `bool test = true`, else `bool test = false`. Dry soil is at a soil moisture value of 500. As the soil becomes more dry, the percentage will increase. Reversely, as water content increases, the percentage will decrease. To change what soil moisture percentage you want to water at, change the variables at line 13 and 14: `float plant1Stop` and `float plant2Stop` to what is desired. It will water the soil until it reaches the percentage of the set values.
 <br><br>
 
-### Arduino Code
----
-
-```sh
-CODE CODE 
-```
-<br><br>
 
 ### Circuitry
 ---
