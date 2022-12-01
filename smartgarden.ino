@@ -29,7 +29,7 @@ void setup() {
 }
 
 void loop() {
-  bool  test = false; // whether or not to test each component
+  bool  test = true; // whether or not to test each component
   sensorValue1 = 0; // resets sensor values
   sensorValue2 = 0;
 
@@ -69,11 +69,12 @@ void loop() {
       } 
       sensorValue1 = sensorValue1/avg;
 
-      //DISPLAYS THE VALUE
+      /*/DISPLAYS THE VALUE
       Serial.print("Sensor 1: ");
       Serial.print(sensorValue1/plant1Water); //displays average value
       Serial.println();
       Serial.println();
+      */
       
     }
     delay(1000);
@@ -92,11 +93,12 @@ void loop() {
         delay(50);
       } 
       sensorValue2 = sensorValue2/avg;
-      // DISPLAYS THE VALUE
+      /*/ DISPLAYS THE VALUE
       Serial.print("Sensor 2: ");
       Serial.print(sensorValue2/plant2Water); //displays average value
       Serial.println();
       Serial.println();
+      */
       
     }
     delay(1000);
