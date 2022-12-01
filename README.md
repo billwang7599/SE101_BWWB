@@ -5,8 +5,7 @@
 ---
 <p align="center">
   <a href="#summary">Summary</a> •
-  <a href="#installation">Installation</a> •
-  <a href="#arduino-code">Arduino Code</a> •
+  <a href="#set-up">Installation</a> •
   <a href="#circuitry">Circuitry</a> •
   <a href="#materials">Materials</a> •
   <a href="#to-do">To-do</a> •
