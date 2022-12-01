@@ -5,7 +5,7 @@
 ---
 <p align="center">
   <a href="#summary">Summary</a> •
-  <a href="#set-up">Installation</a> •
+  <a href="#set-up">Set-up</a> •
   <a href="#circuitry">Circuitry</a> •
   <a href="#materials">Materials</a> •
   <a href="#to-do">To-do</a> •
@@ -18,7 +18,7 @@
 Our proposal is to create an automated smart garden that monitors plant moisture levels and independently gauges when they need to be watered. Based around an Arduino  board framework, a soil moisture sensor receives the plants' soil data and actuates the hydration system. The orientation of the tubing is controlled by a servo motor that changes the angle of the tubing based on the location data of the plants. The amount of water needed to be pumped corresponds with each plant species’ needs found in a plant water intake API. The culminating goal is to be able to automate tending to a garden’s watering needs using the specified software and hardware applications.
 <br><br>
 
-### Set-Up
+### Set-up
 ---
 Plug Arduino into a power source. If testing is needed, set the `bool test = true`, else `bool test = false`. Dry soil is at a soil moisture value of 500. As the soil becomes more dry, the percentage will increase. Reversely, as water content increases, the percentage will decrease. To change what soil moisture percentage you want to water at, change the variables at line 13 and 14: `float plant1Stop` and `float plant2Stop` to what is desired. It will water the soil until it reaches the percentage of the set values.
 <br><br>
