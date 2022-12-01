@@ -68,9 +68,9 @@ First, we establish a connection to the Arduino Uno from the laptop. Afterwards,
     - [X] Dosing Pump
     - [X] Soil Moisture Sensor
 - [X] Have sensor read moisture
-- [ ] Have water pump automatically after reading moisture
-- [ ] Have pump water different locations
-- [ ] Set up automated garden
+- [X] Have water pump automatically after reading moisture
+- [X] Have pump water different locations
+- [X] Set up automated garden
 <br><br>
 
 ### Contributers
