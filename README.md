@@ -19,9 +19,9 @@
 Our proposal is to create an automated smart garden that monitors plant moisture levels and independently gauges when they need to be watered. Based around an Arduino  board framework, a soil moisture sensor receives the plants' soil data and actuates the hydration system. The orientation of the tubing is controlled by a servo motor that changes the angle of the tubing based on the location data of the plants. The amount of water needed to be pumped corresponds with each plant species’ needs found in a plant water intake API. The culminating goal is to be able to automate tending to a garden’s watering needs using the specified software and hardware applications.
 <br><br>
 
-### Installation
+### Running
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel leo metus. Pellentesque vel turpis pretium, consectetur diam at, pellentesque ante. Etiam eleifend gravida purus, eu laoreet diam dapibus ac. Donec sagittis vehicula diam. Integer a fermentum leo. Vestibulum sit amet metus id libero iaculis posuere. Mauris ultrices, libero et volutpat laoreet, magna ipsum tristique ligula, vitae commodo ligula tellus et tellus. Morbi mollis elit sit amet euismod faucibus. Donec at eros at sapien blandit dignissim vel nec elit. Morbi condimentum est quis ante pretium, sed facilisis turpis aliquam. Pellentesque felis dui, faucibus non lacus eget, imperdiet consectetur nunc. Aenean consequat libero id vestibulum sagittis.
+Plug Arduino into a power source. If testing is needed, set the `bool test = true`, else `bool test = false`. Dry soil is at a soil moisture value of 500. As the soil becomes more dry, the percentage will increase. Reversely, as water content increases, the percentage will decrease. To change what soil moisture percentage you want to water at, change the variables at line 13 and 14: `float plant1Stop` and `float plant2Stop` to what is desired. It will water the soil until it reaches the percentage of the set values.
 <br><br>
 
 ### Arduino Code
@@ -55,7 +55,7 @@ CODE CODE
   
 First, we establish a connection to the Arduino Uno from the laptop. Afterwards, we attatch the Arduino to the breadboard so that it can interact with the pump, motor, and sensor. This way, we can get data from the soil and the system can act accordingly (dispenses water if needed; continues until desired soil moisture level is reached).
 
-![Circuit Image](https://github.com/billwang7599/SE101_BWWB/blob/main/info/Circuit.png)
+[![Circuit Image](https://github.com/billwang7599/SE101_BWWB/blob/main/info/Circuit.png)](https://www.circuito.io/app?components=9442,10190,10398,11021,13322)
 <br><br>
 
 ### To-do
